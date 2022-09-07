@@ -387,12 +387,28 @@ footer a {
 	}
 
 	#aside_div--spacing {
-		margin-right: 1em;
+		margin-right: 2rem;
 	}
 }
 
 @media screen and (min-width: 800px) {
 	#aside-content {
 		flex-direction: column;
+	}
+}
+
+/* Terzo punto dell'esercizio  */
+
+@media screen and (min-width: 800px) {
+	main {
+		display: flex;
+	}
+
+	article {
+		width: 65%;
+	}
+
+	#aside_div--spacing {
+		margin-right: 0;
 	}
 }
