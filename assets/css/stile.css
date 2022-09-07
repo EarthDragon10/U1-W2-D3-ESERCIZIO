@@ -367,6 +367,10 @@ footer a {
 
 /* Primo punto dell'esercizio */
 
+aside div:last-child {
+	flex-shrink: 1.4;
+}
+
 @media screen and (min-width: 500px) {
 	#logo-img-text {
 		display: flex;
@@ -386,7 +390,7 @@ footer a {
 		display: flex;
 	}
 
-	#aside_div--spacing {
+	.aside_div--spacing {
 		margin-right: 2rem;
 	}
 }
@@ -408,7 +412,7 @@ footer a {
 		width: 65%;
 	}
 
-	#aside_div--spacing {
+	.aside_div--spacing {
 		margin-right: 0;
 	}
 }
