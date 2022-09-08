@@ -371,6 +371,16 @@ aside div:last-child {
 	flex-shrink: 1.4;
 }
 
+/* Soluzione di Lidia
+
+.box_aside {
+    flex: 1 0 0;
+} 
+
+oppure usando la proprietá gap (soluzione da preferire)
+
+*/
+
 @media screen and (min-width: 500px) {
 	#logo-img-text {
 		display: flex;
